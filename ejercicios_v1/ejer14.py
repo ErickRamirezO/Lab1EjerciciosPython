@@ -1,4 +1,4 @@
-#Ingresar un valor en dolares y transformar en euros y yen
+#Ingresar un valor en dólares y transformarlo en euros y yen
 import os
 
 def ingresoDatos():

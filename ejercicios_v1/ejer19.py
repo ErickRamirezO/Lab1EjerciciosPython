@@ -1,4 +1,4 @@
-#ingresar la longitud y el ancho de un rectangulo y encontrar su perimetro
+#ingresar la longitud y el ancho de un rectángulo y encontrar su perímetro
 import os
 
 def ingresoDatos():

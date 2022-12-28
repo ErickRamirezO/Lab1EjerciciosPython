@@ -35,7 +35,21 @@ def ingresoDatos():
 	return radio
 
 def areaCirculo(radio):
-	return PI*(radio**2)
+	'''
+    Funcion que permite hacer el cálculo del área del círculo
+
+    Parametros:
+    ------------
+        No tiene parámetros
+
+    Retorna:
+    ------------
+        radio: float
+    '''
+	# almacenamos el valor del área
+	area = PI*(radio**2)
+	#retornamos el valor
+	return area
 
 if __name__ == "__main__":
 	#Se guarda el valor del radio que ingrese el usuario

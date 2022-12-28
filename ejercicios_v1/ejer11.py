@@ -1,4 +1,4 @@
-#Ingresar un valor en libras y tranformalo a kilos y gramos
+#Ingresar un valor en libras y transformarlo a kilos y gramos
 import os
 def ingresoDatos():
 	'''
