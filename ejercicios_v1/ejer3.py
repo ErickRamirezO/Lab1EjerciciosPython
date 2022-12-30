@@ -46,10 +46,8 @@ def area(largo, ancho):
     ------------
         largo*ancho: float
     '''
-	#guardamos el calculo del area
-	area = largo*ancho
 	#retornamos el valor del area
-	return area
+	return largo*ancho
 
 def perimetro(largo, ancho):
 	'''
@@ -63,10 +61,8 @@ def perimetro(largo, ancho):
     ------------
         2*(largo+ancho): float
     '''
-	#guardamos el calculo del perimetro
-	perimetro = 2*(largo+ancho)
 	#retornamos el valor del perimetro
-	return perimetro
+	return 2*(largo+ancho)
 
 if __name__ == "__main__":
 	#Se guarda el valor del largo y ancho que ingrese el usuario
