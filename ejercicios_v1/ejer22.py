@@ -51,4 +51,4 @@ if __name__ == "__main__":
 	#imprimimos el valor de la velocidad calculada
 	print(f"El valor de la velocidad es: {calculoVelocidad(distancia,tiempo)}")
 	#volvemos al menú principal
-	os.system("python main.py")
+	os.system("python ejercicios_v1/main.py")

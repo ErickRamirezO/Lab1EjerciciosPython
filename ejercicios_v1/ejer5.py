@@ -43,4 +43,4 @@ if __name__ == "__main__":
 	#Imprimimos el resultado del calculo de la expresión
 	print(f"El resultado de y=x^z/2 es: y={calculoExpresion(x,z)}")
 	#volvemos al menú principal
-	os.system("python main.py")
+	os.system("python ejercicios_v1/main.py")

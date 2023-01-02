@@ -73,4 +73,4 @@ if __name__ == "__main__":
 	#Se llama a la función que hace la conversión de libras a gramos
 	conversionLibrasAGramos(valor_libras)
 	#volvemos al menú principal
-	os.system("python main.py")
+	os.system("python ejercicios_v1/main.py")

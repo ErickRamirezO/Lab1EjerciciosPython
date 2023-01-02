@@ -76,5 +76,5 @@ if __name__ == "__main__":
 	#imprimimos el resultado del area del rectángulo
 	print(f"El área el rectángulo es de: {area} [m]")
 	#volvemos al menú principal
-	os.system("python main.py")
+	os.system("python ejercicios_v1/main.py")
 	

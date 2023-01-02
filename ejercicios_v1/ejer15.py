@@ -50,4 +50,4 @@ if __name__ == "__main__":
 	#imprimimos el resultado de la ecuación
 	print(f"El resultado de la ecuacion es: {resolverEcuacion(k)}")
 	#volvemos al menú principal
-	os.system("python main.py")
+	os.system("python ejercicios_v1/main.py")

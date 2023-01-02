@@ -71,6 +71,6 @@ if __name__ == "__main__":
 	#imprimimos el resultado de la división
 	print(f"División: {division}")
 	#volvemos al menú principal
-	os.system("python main.py")
+	os.system("python ejercicios_v1/main.py")
 	
 	

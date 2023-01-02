@@ -65,5 +65,5 @@ if __name__ == "__main__":
 	#imprimimos el resultado del área
 	print(f"El área es: {area}")
 	#volvemos al menú principal
-	os.system("python main.py")
+	os.system("python ejercicios_v1/main.py")
 

@@ -82,4 +82,4 @@ if __name__ == "__main__":
 	#imprimos el resultado de la conversion de dolares a yenes
 	print(f"{dolares} dólares a Yenes son: {yenes}")
 	#volvemos al menú principal
-	os.system("python main.py")
+	os.system("python ejercicios_v1/main.py")

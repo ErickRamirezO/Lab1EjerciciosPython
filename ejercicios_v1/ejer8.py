@@ -23,7 +23,7 @@ def ingresoDatos():
 			#Se verifica si el radio es un número positivo
 			if radio <=0:
 				#imprimimos el mensaje al usuario advirtiendo que ingresó un numero negativo
-				print("Ingrese solo valores negativos")
+				print("Ingrese solo valores positivos")
 			#si el valor ingresado es float y positivo
 			else:
 	        	#rompemos el ciclo
@@ -57,4 +57,4 @@ if __name__ == "__main__":
 	#imprimimos el resultado del área del círculo
 	print(f"El valor del área del círculo es: {areaCirculo(radio)} [m]")
 	#volvemos al menú principal
-	os.system("python main.py")
+	os.system("python ejercicios_v1/main.py")

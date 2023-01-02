@@ -57,4 +57,4 @@ if __name__ == "__main__":
 	#imprimimos el valor del perímetro calculado del rectángulo
 	print(f"El perímetro del rectángulo es de: {perimetro(largo,ancho)} [m]")
 	#volvemos al menú principal
-	os.system("python main.py")
+	os.system("python ejercicios_v1/main.py")
