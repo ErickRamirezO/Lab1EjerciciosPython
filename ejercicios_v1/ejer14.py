@@ -16,9 +16,9 @@ def ingresoDatos():
 	while True:
 		try:
 	        # solicitamos al usuario que ingrese un valor en dólares
-			libras = float(input("Ingrese un valor en dólares: "))
+			dolares = float(input("Ingrese un valor en dólares: "))
 			#validamos que el valor de libras no sea un número negativo
-			if libras<=0:
+			if dolares<=0:
 				#imprimimos el mensaje al usuario advirtiendo que ingresó un numero negativo
 				print("Ingrese solo valores positivos")
 			#si el valor ingresado es float y positivo
@@ -29,8 +29,8 @@ def ingresoDatos():
 		except ValueError:
 	        # si la conversión falla, mostramos un mensaje de error
 			print("El valor ingresado no es un número. Por favor, ingrese un valor válido.")
-	#retornamos el valor de las libras
-	return libras
+	#retornamos el valor de dólares
+	return dolares
 
 def dolaresAEuros(dolares):
 	'''
