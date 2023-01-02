@@ -43,12 +43,15 @@ def calculoVelocidad(distancia,tiempo):
     ------------
        distancia/tiempo: float
     '''
-	return distancia/tiempo
+	#Guardamos el calculo de la velocidad en la variable respectiva
+	velocidad = distancia/tiempo
+	#retornamos el valor de velocidad
+	return velocidad
 
 if __name__ == "__main__":
 	#Se guarda el valor de la distancia y tiempo que ingrese el usuario
 	distancia,tiempo=ingresoDatos()
 	#imprimimos el valor de la velocidad calculada
-	print(f"El valor de la velocidad es: {calculoVelocidad(distancia,tiempo)}")
+	print(f"El valor de la velocidad es: {calculoVelocidad(distancia,tiempo)} [m/s]")
 	#volvemos al menú principal
 	os.system("python ejercicios_v1/main.py")
