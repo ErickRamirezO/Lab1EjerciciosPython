@@ -22,8 +22,10 @@ def ingresoDatos():
 			if tiempo<=0:
 				#imprimimos el mensaje al usuario advirtiendo que ingresó un numero negativo para el valor del tiempo
 				print("Solo ingrese valores positivos para el tiempo")
-	        # Salimos del ciclo si los datos son correctos
-			break
+			#Si el valor del tiempo es positivo entonces
+			else:
+	        	#Salimos del ciclo
+				break
 		#Manejamos el error
 		except ValueError:
 	        # si la conversión falla, mostramos un mensaje de error
