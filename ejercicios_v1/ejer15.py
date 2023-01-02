@@ -11,7 +11,7 @@ def ingresoDatos():
 
     Retorna:
     ------------
-        k: float
+        k: int
     '''
 	while True:
 		try:
@@ -40,7 +40,7 @@ def resolverEcuacion(k):
         resultado: float
     '''
 	#Se hace todo el calculo de la expresión planteada
-	resultado = ((-1)*k+1)/(2*k-1)((-1)^(k+1))/(2*k-1)
+	resultado = ((-1)*k+1)/(2*k-1)*((-1)**(k+1))/(2*k-1)
 	#retornamos resulatado que contiene el calculo de la expresión
 	return resultado
 
